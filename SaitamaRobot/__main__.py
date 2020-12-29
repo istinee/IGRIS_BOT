@@ -180,14 +180,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add Dazai Osamu To Your Group🔥",
+                              text="🔱Add Dazai Osamu To Your Group🔱",
                               url="t.me/istiinee_bot?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [
                               InlineKeyboardButton(
-                              text="🍁Support Group🍁",
-                              url=f"https://t.me/joinchat/V0tHjObWdwYU2if7")
+                              text="⚜️Supponsored Group⚜️",
+                              url=f"https://t.me/Grup_Wibu")
                           ]])) 
     else:
         update.effective_message.reply_text(

@@ -177,7 +177,7 @@ def start(update: Update, context: CallbackContext):
                           [[
                               InlineKeyboardButton(
                               text="Nothing",
-                              url="t.me/istiinee_bot?startgroup=true".format(
+                              url="t.me/Wsc_idn_bot?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [

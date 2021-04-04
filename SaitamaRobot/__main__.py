@@ -182,7 +182,7 @@ def start(update: Update, context: CallbackContext):
                           ], 
                           [
                               InlineKeyboardButton(
-                              text="⚜️Supponsored Group⚜️",
+                              text="🏫 Sekolah Wibu 🏫",
                               url=f"https://t.me/sekolahwibu")
                           ]])) 
     else:

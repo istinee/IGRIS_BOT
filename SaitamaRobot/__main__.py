@@ -51,17 +51,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello {},My Name is Dazai Osamu
-I AM A FORMER PORT MAFIA EXECUTIVE.
-I will help you manage your group.
-Saya akan membantu Anda mengelola grup Anda.
-TO KNOW MY COMMANDS CLICK /help.
-UNTUK MENGETAHUI PERINTAH KLIK /help.
+Hello {},My Name is apa ajalah
+Bot manajer wibu schools & clubs idn.
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a Shadow From Solo Leveling,I will help you manage your groups! Have a look at the following for an idea of some of \
+I will help ! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
@@ -79,7 +75,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/cf5e9907acd3fe84064d2.mp4"
+SAITAMA_IMG = "https://telegra.ph/file/125f792f2cbea9771aa3d.mp4"
 
 DONATE_STRING = """donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
@@ -180,14 +176,14 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔱Add Dazai Osamu To Your Group🔱",
-                              url="t.me/istiinee_bot?startgroup=true".format(
+                              text="Nothing",
+                              url="t.me/istiinee_bot?startgroup=false".format(
                                   context.bot.username))
                           ], 
                           [
                               InlineKeyboardButton(
                               text="⚜️Supponsored Group⚜️",
-                              url=f"https://t.me/Grup_Wibu")
+                              url=f"https://t.me/sekolahwibu")
                           ]])) 
     else:
         update.effective_message.reply_text(
